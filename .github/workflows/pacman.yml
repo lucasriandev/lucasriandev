@@ -15,7 +15,7 @@ jobs:
     
     steps:
       - name: Gerar Gráfico Pac-Man
-        uses: abozanona/pacman-contribution-graph@v2
+        uses: k20sh/pacman-contribution-graph@v2.0.0
         with:
           github_user_name: ${{ github.repository_owner }}
 
