@@ -2,6 +2,7 @@ name: Pac-Man Contribution Graph
 
 on:
   schedule:
+    # Roda a cada 24 horas
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
@@ -10,12 +11,15 @@ on:
 
 jobs:
   generate:
+    permissions: 
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
     
     steps:
       - name: Gerar Gráfico Pac-Man
-        uses: k20sh/pacman-contribution-graph@v2.0.0
+        # AQUI ESTAVA O ERRO: Mudamos para @main para pegar a versão mais recente
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
