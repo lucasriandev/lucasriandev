@@ -5,5 +5,9 @@
   <img height="50" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
 </div><br>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/lucasriandev/lucasriandev/output/pacman-contribution-graph.svg" alt="Pac-Man Graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucasriandev/lucasriandev/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucasriandev/lucasriandev/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man Graph" src="https://raw.githubusercontent.com/lucasriandev/lucasriandev/output/pacman-contribution-graph.svg">
+  </picture>
 </div>
