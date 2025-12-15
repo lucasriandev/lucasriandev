@@ -11,3 +11,6 @@
     <img alt="Pac-Man Graph" src="https://raw.githubusercontent.com/lucasriandev/lucasriandev/output/pacman-contribution-graph.svg">
   </picture>
 </div>
+<div align="center">
+  <img height="680px" width="100%" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MXpuaXphdjEwcmlxY2Vmams4ZzR0OXBuMmY4ejRxcjk0b2I5MjA0YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kanka5wfr3BxGpLRQu/giphy.gif" />
+</div>
